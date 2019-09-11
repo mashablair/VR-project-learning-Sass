@@ -1,3 +1,20 @@
+.btn-info, .btn-callout {
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0.75em 1.5em;
+  border-radius: 0.35em;
+}
+.btn-info:hover, .btn-callout:hover {
+  color: #fff;
+  opacity: 0.8;
+}
+.btn-info:active, .btn-callout:active {
+  opacity: initial;
+}
+
 /* BASE ------------------------------------------- */
 * {
   box-sizing: border-box;
@@ -139,23 +156,6 @@ footer::after {
 .card .icon,
 .card h1 {
   color: #278da4;
-}
-
-.btn-info, .btn-callout {
-  color: #fff;
-  display: inline-block;
-  font-weight: bold;
-  text-decoration: none;
-  text-transform: uppercase;
-  padding: 0.75em 1.5em;
-  border-radius: 0.35em;
-}
-.btn-info:hover, .btn-callout:hover {
-  color: #fff;
-  opacity: 0.8;
-}
-.btn-info:active, .btn-callout:active {
-  opacity: initial;
 }
 
 .btn-callout {
